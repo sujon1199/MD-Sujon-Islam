@@ -29,13 +29,13 @@ const WorkCard = ({
         </li>
         <li className="flex gap-1">
           <span className="text-designColor">
-            <TiArrowForward className="sizi={20}" />
+            <TiArrowForward className="size={20}" />
           </span>
           {datailsTwo}
         </li>
         <li className="flex gap-1">
           <span className="text-designColor">
-            <TiArrowForward className="sizi={20}" />
+            <TiArrowForward className="size={20}" />
           </span>
           {datailsThree}
         </li>

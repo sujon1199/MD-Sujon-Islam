@@ -24,7 +24,7 @@ const SocialAccounts = [
   },
   {
     title: "linkedin",
-    link: "https://www.linkedin.com/in/md-sujon-islam-ss/",
+    link: "https://www.linkedin.com/in/sujon1199/",
     icon: <SlSocialLinkedin />,
     delay: 0.9,
   },
