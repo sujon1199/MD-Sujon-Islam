@@ -1,5 +1,5 @@
 import { FaCode } from "react-icons/fa";
-import Sujon from "Sujon-w.jpg";
+
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
 const About = () => {
@@ -60,7 +60,7 @@ const About = () => {
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lg:pl-0">
               <img
-                src={Sujon}
+                src="Sujon-w.jpg"
                 alt="ProfileImage"
                 className="rounded-lg lg:w-full sm:mx-auto h-[420px] object-left-top"
               />
