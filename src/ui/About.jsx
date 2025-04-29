@@ -1,5 +1,5 @@
 import { FaCode } from "react-icons/fa";
-import Sujon from "../assets/images/Sujon-islam.jpg";
+import Sujon from "Sujon-w.jpg";
 import Container from "./Container";
 import SectionTitle from "./SectionTitle";
 const About = () => {
