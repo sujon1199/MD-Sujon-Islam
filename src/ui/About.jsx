@@ -62,9 +62,9 @@ const About = () => {
               <img
                 src="Sujon-w.jpg"
                 alt="ProfileImage"
-                className="rounded-lg lg:w-full sm:mx-auto h-[420px] object-left-top"
+                className="rounded-lg lg:w-full sm:mx-auto h-[430px] object-left-top"
               />
-              <div className="hidden lg:inline-block absolute w-full h-[410px] bg-designColor/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300" />
+              <div className="hidden lg:inline-block absolute w-full h-[410px]  rounded-md top-0 left-0 group-hover:bg-designColor/20 duration-300" />
             </div>
           </div>
           <div className="hidden lg:inline-flex w-full h-[410px] border-2 border-designColor rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300" />
