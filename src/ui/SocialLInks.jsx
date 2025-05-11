@@ -12,7 +12,7 @@ import { twMerge } from "tailwind-merge";
 const SocialAccounts = [
   {
     title: "github",
-    link: "https://github.com/i-am-sujon-islam",
+    link: "https://github.com/sujon1199",
     icon: <TbBrandGithub />,
     delay: 0.8,
   },
