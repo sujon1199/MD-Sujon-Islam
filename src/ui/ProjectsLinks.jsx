@@ -7,21 +7,22 @@ const ProjectsLinks = ({ projectLink }) => {
     <div className="text-2xl flex justify-center items-center gap-4">
       <a
         href="https://github.com/i-am-sujon-islam"
-        target="blank"
+        target="_blank"
+        rel="noopener noreferrer"
         className="hover:text-designColor duration-200"
       >
         <TbBrandGithub />
       </a>
       <a
         href="https://youtube.com/"
-        target="blank"
+        target="_blank"
         className="hover:text-designColor duration-200"
       >
         <AiOutlineYoutube />
       </a>
       <a
         href={projectLink}
-        target="blank"
+        target="_blank"
         className="hover:text-designColor duration-200"
       >
         <RxOpenInNewWindow />
