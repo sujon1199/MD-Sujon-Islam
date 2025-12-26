@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { MdOutlineClose } from "react-icons/md";
 import { Link } from "react-scroll";
 import logo from "../assets/images/Sujon-logo.jpg";
@@ -13,6 +13,7 @@ const navigation = [
 ];
 const Header = () => {
   const [show, setShow] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const ref = useRef();
 
   const handleClick = (e) => {
@@ -21,8 +22,23 @@ const Header = () => {
     }
   };
 
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <div className="h-20 shadow-lg shadow-designColor/10 px-4 sticky top-0 bg-gradient-to-r from-primaryColor to-purple-900 hover:bg-gradient-to-l z-50  duration-300">
+    <div
+      className={`sticky top-0 z-50 transition-all duration-300
+  ${
+    scrolled
+      ? "h-16 bg-black/70 backdrop-blur-md shadow-lg"
+      : "h-20 bg-gradient-to-r from-primaryColor to-purple-900"
+  }`}
+    >
       <div className="max-w-[1440px] mx-auto flex items-center justify-between h-full">
         <img
           src={logo}
@@ -33,23 +49,27 @@ const Header = () => {
           <div className="flex text-base text-[13px] gap-5">
             {navigation?.map((item) => (
               <Link
-                key={item?.title}
-                to={item?.link}
+                activeClass="text-designColor border-b-2 border-designColor"
+                spy={true}
+                to={item.link}
                 smooth={true}
-                duration={700}
                 offset={-80}
-                className="font-medium hover:text-designColor cursor-pointer duration-300"
+                duration={700}
+                className="px-2 pb-1 border-b-2 border-transparent transition-all"
               >
                 <motion.button
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.1, delay: item?.delay }}
                 >
-                  <span className="text-designColor mt-1">
+                  <span className="text-designColor mt-1 ">
                     {item?.value}
                     {item?.value && "."}
                   </span>
-                  <span className="uppercase tracking-wide">{item?.title}</span>
+                  <span className="relative group">
+                    <span>{item.title}</span>
+                    <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-designColor group-hover:w-full transition-all duration-300"></span>
+                  </span>
                 </motion.button>
               </Link>
             ))}
@@ -122,7 +142,7 @@ const Header = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.5 }}
-                  href="Sujon(lp.cv).pdf"
+                  href="Sujon-cv.pdf"
                   target="blank"
                   className="px-4 py-2 text-designColor text-[13px] tranking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
                 >
