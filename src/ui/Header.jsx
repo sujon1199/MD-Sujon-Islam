@@ -41,7 +41,7 @@ const Header = () => {
     >
       <div className="max-w-[1440px] mx-auto flex items-center justify-between h-full">
         <img
-          src={logo}
+          src="Sujon-w.jpg"
           alt="logo"
           className="h-20 w-20 rounded-full p-2 opacity-75 hover:opacity-100 duration-200 cursor-pointer"
         />
