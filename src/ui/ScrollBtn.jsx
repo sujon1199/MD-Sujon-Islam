@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import { MdArrowUpward } from "react-icons/md";
+import Container from "./Container";
 
 const ScrollBtn = () => {
   useEffect(() => {
     const scrollBtn = document.querySelector(".scrollBtn");
 
     const scrollFunction = () => {
-      if (window.scrollY > 300) {
+      if (window.scrollY) {
         scrollBtn.style.display = "block";
       } else {
         scrollBtn.style.display = "none";
@@ -20,13 +21,15 @@ const ScrollBtn = () => {
     scrollBtn.addEventListener("click", scrollToTop);
   }, []);
   return (
-    <div
-      className="fixed bottom-10 right-20 z-40
-     bg-darkColor/40 text-lightText/80 p-3 rounded-full cursor-pointer
+    <Container>
+      <div
+        className="fixed bottom-10 right-20 z-40
+     bg-darkColor/80 text-lightText/80 p-3 rounded-full cursor-pointer
      hover:bg-black transition duration-300 scrollBtn"
-    >
-      <MdArrowUpward size={24} />
-    </div>
+      >
+        <MdArrowUpward size={24} />
+      </div>
+    </Container>
   );
 };
 

@@ -50,7 +50,7 @@ const Experience = () => {
       id="experience"
       className="max-w-3xl mx-auto py-10 lg:py-24 gap-16"
     >
-      <SectionTitle title="Where I have worked" titleNo="02." />
+      <SectionTitle title="Where I want to work" titleNo="02." />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col gap-3 cursor-pointer">
           <li
