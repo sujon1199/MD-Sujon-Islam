@@ -3,9 +3,9 @@ import Typewriter from "typewriter-effect";
 import Container from "./Container";
 const Banner = () => {
   const stringArray = [
-    " I buld things for the web",
-    "Passionate web developer",
-    "Love to learn new idesas",
+    "I build things for the web",
+    "A passionate web developer.",
+    "I love to learn new ideas.",
   ];
   return (
     <Container
