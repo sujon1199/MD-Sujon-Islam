@@ -24,13 +24,13 @@ const SocialAccounts = [
   },
   {
     title: "linkedin",
-    link: "https://www.linkedin.com/in/sujon1199/",
+    link: "https://www.linkedin.com/in/md-sujon-islam-ss/",
     icon: <SlSocialLinkedin />,
     delay: 0.9,
   },
   {
     title: "Facebook",
-    link: "https://web.facebook.com/?_rdc=1&_rdr",
+    link: "https://www.facebook.com/mdsujonislam.me",
     icon: <SlSocialFacebook />,
     delay: 0.95,
   },
