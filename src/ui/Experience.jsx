@@ -109,7 +109,7 @@ const Experience = () => {
           <WorkCard
             jobTitle="Enginner"
             jobTag="@ReactBD"
-            data="jan 2023 - present"
+            data="jan 2020 - present"
             datailsOne="Write modern, performant, 
             maintainable code for a disverse array of client and internal projects"
             datailsTwo="Work with a variety of different languages, platforms, frameworks,
@@ -122,7 +122,7 @@ const Experience = () => {
           <WorkCard
             jobTitle="Web Developer"
             jobTag="@Google"
-            data="jan 2023 - present"
+            data="jan 2020 - present"
             datailsOne="Write modern, performant, 
             maintainable code for a disverse array of client and internal projects"
             datailsTwo="Work with a variety of different languages, platforms, frameworks,
@@ -135,7 +135,7 @@ const Experience = () => {
           <WorkCard
             jobTitle="MERN Stacker"
             jobTag="@Apple"
-            data="jan 2023 - present"
+            data="jan 2021 - present"
             datailsOne="Write modern, performant, 
             maintainable code for a disverse array of client and internal projects"
             datailsTwo="Work with a variety of different languages, platforms, frameworks,
@@ -148,7 +148,7 @@ const Experience = () => {
           <WorkCard
             jobTitle="Web Desiger"
             jobTag="@Splash"
-            data="jan 2023 - present"
+            data="jan 2022 - present"
             datailsOne="Write modern, performant, 
             maintainable code for a disverse array of client and internal projects"
             datailsTwo="Work with a variety of different languages, platforms, frameworks,
