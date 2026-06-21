@@ -7,18 +7,18 @@ export const projectArray = [
     link: "https://ecommercepro.reactbd.com/",
   },
   {
-    title: "Modern Ecommerce Website",
+    title: "Education Website",
     MdDescription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto repellendus sunt mollitia, aperiam veritatis.",
-    listItem: ["Reactjs", "Tailwind CSS", "etform.io"],
-    link: "https://ecommercepro.reactbd.com/",
+    listItem: ["HTML", " CSS"],
+    link: "https://a-simple-project-dpi.vercel.app/",
   },
   {
     title: "Modern Ecommerce Website",
     MdDescription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto repellendus sunt mollitia, aperiam veritatis.",
     listItem: ["Reactjs", "Tailwind CSS", "etform.io"],
-    link: "https://ecommercepro.reactbd.com/",
+    link: "https://www.arkoelectronics.com/",
   },
   {
     title: "Modern Ecommerce Website",
