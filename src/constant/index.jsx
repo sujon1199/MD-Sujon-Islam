@@ -21,11 +21,11 @@ export const projectArray = [
     link: "https://www.arkoelectronics.com/",
   },
   {
-    title: "Modern Ecommerce Website",
+    title: "Lead Generation Website",
     MdDescription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto repellendus sunt mollitia, aperiam veritatis.",
     listItem: ["Reactjs", "Tailwind CSS", "etform.io"],
-    link: "https://ecommercepro.reactbd.com/",
+    link: "https://heavenliramarketingltd.com/",
   },
   {
     title: "Modern Ecommerce Website",
